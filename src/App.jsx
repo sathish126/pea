@@ -78,16 +78,22 @@ const Footer = () => (
   <footer className="bg-white border-t-4 border-green-600 sticky bottom-0 z-50">
   <div className="container mx-auto flex justify-between items-center px-6 py-2">
   {/* About Link */}
-    <div>
+    <div className="flex items-center space-x-12">
       <Link 
         to="/about" 
         className="border-2 border-green-600 rounded-md py-1 px-4 text-amber-500 hover:text-blue-500 hover:border-blue-500 transition">
         About
       </Link>
+    
+      <Link 
+        to="/team" 
+        className="border-2 border-green-600 rounded-md py-1 px-4 text-amber-500 hover:text-blue-500 hover:border-blue-500 transition">
+        Team
+      </Link>
     </div>
 
   {/* Contact and Social Icons */}
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-12">
     {/* Contact Us Link */}
       <Link 
         to="/contact" 
@@ -128,7 +134,7 @@ const Footer = () => (
         </div>
         {/* Sponsor 2 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
         {/* Sponsor 3 */}
@@ -196,6 +202,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/about" element={<h1 className="text-4xl md:text-6xl  text-center">Work on Progress</h1>} />
+            <Route path="/team"element={<h1 className="text-4xl md:text-6xl  text-center">Work on Progress</h1>} />
             <Route path="/contact"element={<h1 className="text-4xl md:text-6xl  text-center">Work on Progress</h1>} />
             <Route path="/accommodation" element={<h1 className="text-4xl md:text-6xl  text-center">Work on Progress</h1>} />
             <Route path="/gallery" element={<h1 className="text-4xl md:text-6xl  text-center">Work on Progress</h1>} />
