@@ -7,7 +7,7 @@ const Header = () => (
     <div className="container mx-auto flex items-center justify-between py-4 px-6">
       {/* Left Section: Logos and Names */}
       <div className="flex items-center space-x-2">
-        <img src="public/assets/psg_logo.png" alt="Logo 1" className="w-12 h-12" />
+        <img src="\assets\psg_logo.png" alt="Logo 1" className="w-12 h-12" />
         <div className="flex flex-col">
           <span className="text-lg font-semibold">Department of Production Engineering</span>
           <span className="text-lg font-semibold">PSG College Of Technology</span>
@@ -20,13 +20,13 @@ const Header = () => (
       {/* Right Section: Logos and Names */}
       <div className="flex flex-col space-y-2 items-start">
         <div className="flex items-center space-x-4">
-          <img src="public/assets/PEA_Logo.png" alt="PEA Logo" className="w-10 h-10" />
+          <img src="\assets\PEA_Logo.png" alt="PEA Logo" className="w-10 h-10" />
           <div className="flex flex-col">
             <span className="text-lg font-semibold">Production Engineering Association</span>
           </div>
         </div>
         <div className="flex items-center space-x-4">
-          <img src="public/assets/sme_logo.png" alt="SME Logo" className="w-10 h-10" />
+          <img src="\assets\sme_logo.png" alt="SME Logo" className="w-10 h-10" />
           <div className="flex flex-col">
             <span className="text-lg font-semibold">
               Society of Manufacturing Engineers - Student Chapter
@@ -129,7 +129,7 @@ const Footer = () => (
       <div className="container mx-auto flex flex-wrap justify-center space-x-6 px-6">
         {/* Sponsor 1 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
         {/* Sponsor 2 */}
@@ -139,32 +139,32 @@ const Footer = () => (
         </div>
         {/* Sponsor 3 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
         {/* Sponsor 4 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
         {/* Sponsor 5 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
         {/* Sponsor 6 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
         {/* Sponsor 7 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
         {/* Sponsor 8 */}
         <div className="flex items-center space-x-2">
-          <img src="public/assets/psg_logo.png" alt="Sponsor" className="w-8 h-8" />
+          <img src="\assets\psg_logo.png" alt="Sponsor" className="w-8 h-8" />
           <span className="text-sm font-medium">PSG Tech</span>
         </div>
       </div>
